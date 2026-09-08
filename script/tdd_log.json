@@ -16,9 +16,31 @@
     "testId": 0
   },
   {
-    "commitId": "HEAD",
+    "commitId": "882d7823472542810b0899376382670c0f78d031",
     "commitName": "feat: test de obtener numero de ventas",
     "commitTimestamp": 1788876047549,
     "testId": 0
+  },
+  {
+    "numPassedTests": 3,
+    "failedTests": 0,
+    "numTotalTests": 3,
+    "timestamp": 1788876174261,
+    "success": true,
+    "testId": 1
+  },
+  {
+    "numPassedTests": 3,
+    "failedTests": 0,
+    "numTotalTests": 3,
+    "timestamp": 1788876752127,
+    "success": true,
+    "testId": 1
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: test de obtener precio items",
+    "commitTimestamp": 1788876790680,
+    "testId": 1
   }
 ]
