@@ -1,0 +1,19 @@
+Funcionalidades:
+
+El Sistema deberia poner recibir cantidad de items
+El Sistema deberia poner recibir el precio de los items
+
+3. El Sistema deberia tener deberia tener codigos de estado
+4. El Sistema deberia poder calcular el precio neto (item * precio)
+
+5. El Sistema deberia poder calcular el descuento de acuerdo al estado
+6. El Sistema deberia tener el registro de los impuestos de cada estado
+
+7. El Sistema deberia poder calcular el precio total
+8. El Sistema deberia poder validar negativos
+
+9. El Sistema deberia poder asignar un descuento de acuerdo a el total de la orden
+10.El Sistema deberia poder validar que los codigos de estados tengan 3 letras
+
+ 
+hacerlo mas incremental
