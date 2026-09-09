@@ -114,12 +114,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "c05a7e1dadcdc4a3ce4af04a6771b33cc75f39ce",
     "author": "Adrian Paolo",
     "commit": {
       "date": "2026-09-09T21:11:01.000Z",
       "message": "feat: añadiendo funcionalidad de impuestos de mayores a 10000",
-      "url": "https://github.com/adrianpaolo01/proyecto-ventas/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/proyecto-ventas/commit/c05a7e1dadcdc4a3ce4af04a6771b33cc75f39ce"
     },
     "stats": {
       "total": 12,
@@ -129,6 +129,25 @@
     },
     "coverage": 100,
     "test_count": 10,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Adrian Paolo",
+    "commit": {
+      "date": "2026-09-09T21:27:41.000Z",
+      "message": "feat: añadiendo funcionalidad de impuestos de mayores a 30000",
+      "url": "https://github.com/adrianpaolo01/proyecto-ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 10,
+      "additions": 10,
+      "deletions": 0,
+      "date": "2026-09-09"
+    },
+    "coverage": 100,
+    "test_count": 11,
     "failed_tests": 0,
     "conclusion": "success"
   }

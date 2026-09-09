@@ -65,6 +65,13 @@ describe( "Ventas",() =>{
     expect(ventas.aplicarDescuento(12000)).toEqual(10800); 
   });
 
+    it("al hacer una compra mayor o igual a 30000, se aplica un descuento del 15%", () => {
+    let ventas = new Ventas()
+    ventas.obtenerCantidadItems(500)
+    ventas.obtenerPrecioItem(60)
+    ventas.obtenerPrecioNeto(500,60)
+    expect(ventas.aplicarDescuento(30000)).toEqual(25500); 
+  });
   
 
 });
