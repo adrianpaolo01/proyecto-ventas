@@ -19,12 +19,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "175b67ad1ab21b3e96c5ebab1eeeebb5c8ff46f8",
     "author": "Adrian Paolo",
     "commit": {
       "date": "2026-09-08T14:13:09.000Z",
       "message": "feat: test de obtener precio items",
-      "url": "https://github.com/adrianpaolo01/proyecto-ventas/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/proyecto-ventas/commit/175b67ad1ab21b3e96c5ebab1eeeebb5c8ff46f8"
     },
     "stats": {
       "total": 19,
@@ -34,6 +34,25 @@
     },
     "coverage": 100,
     "test_count": 3,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Adrian Paolo",
+    "commit": {
+      "date": "2026-09-09T20:29:41.000Z",
+      "message": "fix: arreglando la funcionalidad de impuestos",
+      "url": "https://github.com/adrianpaolo01/proyecto-ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 52,
+      "additions": 50,
+      "deletions": 2,
+      "date": "2026-09-09"
+    },
+    "coverage": 100,
+    "test_count": 6,
     "failed_tests": 0,
     "conclusion": "success"
   }

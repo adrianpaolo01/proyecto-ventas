@@ -38,9 +38,39 @@
     "testId": 1
   },
   {
-    "commitId": "HEAD",
+    "commitId": "175b67ad1ab21b3e96c5ebab1eeeebb5c8ff46f8",
     "commitName": "feat: test de obtener precio items",
     "commitTimestamp": 1788876790680,
     "testId": 1
+  },
+  {
+    "numPassedTests": 4,
+    "failedTests": 0,
+    "numTotalTests": 4,
+    "timestamp": 1788877091309,
+    "success": true,
+    "testId": 2
+  },
+  {
+    "numPassedTests": 5,
+    "failedTests": 1,
+    "numTotalTests": 6,
+    "timestamp": 1788984714712,
+    "success": false,
+    "testId": 2
+  },
+  {
+    "numPassedTests": 6,
+    "failedTests": 0,
+    "numTotalTests": 6,
+    "timestamp": 1788985736161,
+    "success": true,
+    "testId": 2
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix: arreglando la funcionalidad de impuestos",
+    "commitTimestamp": 1788985782541,
+    "testId": 2
   }
 ]
