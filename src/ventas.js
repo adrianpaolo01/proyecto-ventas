@@ -49,6 +49,9 @@ class Ventas{
         }else if(precioFinal >= 7000 && precioFinal < 10000){
              descuento = precioFinal * 0.07
              precioFinalConDescuento = precioFinal - descuento
+        }else if(precioFinal >= 10000 && precioFinal < 30000){
+                descuento = precioFinal * 0.1
+                precioFinalConDescuento = precioFinal - descuento
         }
         return precioFinalConDescuento
 

@@ -134,9 +134,23 @@
     "testId": 5
   },
   {
-    "commitId": "HEAD",
+    "commitId": "c4f86e39e3866fc02d8628618d08bf2df1dcdb2c",
     "commitName": "fix: arreglando test de impuestos",
     "commitTimestamp": 1788987980082,
     "testId": 5
+  },
+  {
+    "numPassedTests": 10,
+    "failedTests": 0,
+    "numTotalTests": 10,
+    "timestamp": 1788988244482,
+    "success": true,
+    "testId": 6
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: añadiendo funcionalidad de impuestos de mayores a 10000",
+    "commitTimestamp": 1788988262752,
+    "testId": 6
   }
 ]

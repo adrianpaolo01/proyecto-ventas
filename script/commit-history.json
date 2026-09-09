@@ -95,12 +95,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "c4f86e39e3866fc02d8628618d08bf2df1dcdb2c",
     "author": "Adrian Paolo",
     "commit": {
       "date": "2026-09-09T21:06:18.000Z",
       "message": "fix: arreglando test de impuestos",
-      "url": "https://github.com/adrianpaolo01/proyecto-ventas/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/proyecto-ventas/commit/c4f86e39e3866fc02d8628618d08bf2df1dcdb2c"
     },
     "stats": {
       "total": 22,
@@ -110,6 +110,25 @@
     },
     "coverage": 100,
     "test_count": 9,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Adrian Paolo",
+    "commit": {
+      "date": "2026-09-09T21:11:01.000Z",
+      "message": "feat: añadiendo funcionalidad de impuestos de mayores a 10000",
+      "url": "https://github.com/adrianpaolo01/proyecto-ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 12,
+      "additions": 12,
+      "deletions": 0,
+      "date": "2026-09-09"
+    },
+    "coverage": 100,
+    "test_count": 10,
     "failed_tests": 0,
     "conclusion": "success"
   }
