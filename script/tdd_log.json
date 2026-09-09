@@ -96,9 +96,47 @@
     "testId": 4
   },
   {
-    "commitId": "HEAD",
+    "commitId": "1ecd255acd61e1cd22fbc0848be43e4e58d94a79",
     "commitName": "feat: añadiendo funcionalidad de impuestos de mayores a 3000",
     "commitTimestamp": 1788987484769,
     "testId": 4
+  },
+  {
+    "numPassedTests": 8,
+    "failedTests": 1,
+    "numTotalTests": 9,
+    "timestamp": 1788987628283,
+    "success": false,
+    "testId": 5
+  },
+  {
+    "numPassedTests": 7,
+    "failedTests": 2,
+    "numTotalTests": 9,
+    "timestamp": 1788987692396,
+    "success": false,
+    "testId": 5
+  },
+  {
+    "numPassedTests": 1,
+    "failedTests": 0,
+    "numTotalTests": 1,
+    "timestamp": 1788987874804,
+    "success": false,
+    "testId": 5
+  },
+  {
+    "numPassedTests": 9,
+    "failedTests": 0,
+    "numTotalTests": 9,
+    "timestamp": 1788987946896,
+    "success": true,
+    "testId": 5
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix: arreglando test de impuestos",
+    "commitTimestamp": 1788987980082,
+    "testId": 5
   }
 ]
