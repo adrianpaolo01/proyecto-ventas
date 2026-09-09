@@ -82,9 +82,23 @@
     "testId": 3
   },
   {
-    "commitId": "HEAD",
+    "commitId": "e05d02a7755e3b817a905d3e32350dfc49d47f11",
     "commitName": "feat: añadiendo funcionalidad de impuestos",
     "commitTimestamp": 1788987241483,
     "testId": 3
+  },
+  {
+    "numPassedTests": 8,
+    "failedTests": 0,
+    "numTotalTests": 8,
+    "timestamp": 1788987460119,
+    "success": true,
+    "testId": 4
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: añadiendo funcionalidad de impuestos de mayores a 3000",
+    "commitTimestamp": 1788987484769,
+    "testId": 4
   }
 ]

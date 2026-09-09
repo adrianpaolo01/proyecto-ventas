@@ -43,7 +43,12 @@ class Ventas{
             let descuento = precioFinal * 0.03
             let precioFinalConDescuento = precioFinal - descuento
             return precioFinalConDescuento
+        }else if(precioFinal > 3000 && precioFinal < 7000){
+            let descuento = precioFinal * 0.05
+            let precioFinalConDescuento = precioFinal - descuento
+            return precioFinalConDescuento
         }
+
     }
 
 
