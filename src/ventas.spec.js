@@ -22,13 +22,23 @@ describe( "Ventas",() =>{
         expect(ventas.obtenerPrecioNeto(5,2)).toEqual(10); 
   });
 
-  it("al ingresar una sigla de estado, debe mostrar el precio final con impuesto", () => {
+  // Codigos de estados
+  it("al ingresar la sigla CA, debe mostrar el precio final con impuesto", () => {
     let ventas = new Ventas()
     ventas.obtenerCantidadItems(3)
     ventas.obtenerPrecioItem(20)
     ventas.obtenerPrecioNeto(3,20)
     
     expect(ventas.aplicarImpuesto("CA")).toEqual(64.5); 
+  });
+
+  // Descuentos
+  it("al hacer una compra mayor a 1000 y menor a 3000, se aplica un descuento del 3%", () => {
+    let ventas = new Ventas()
+    ventas.obtenerCantidadItems(100)
+    ventas.obtenerPrecioItem(20)
+    ventas.obtenerPrecioNeto(100,20)
+    expect(ventas.aplicarDescuento(2000)).toEqual(1940); 
   });
 
 

@@ -38,12 +38,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "682f9dc2639dbe24fe1088faeb703dd04a455782",
     "author": "Adrian Paolo",
     "commit": {
       "date": "2026-09-09T20:29:41.000Z",
       "message": "fix: arreglando la funcionalidad de impuestos",
-      "url": "https://github.com/adrianpaolo01/proyecto-ventas/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/proyecto-ventas/commit/682f9dc2639dbe24fe1088faeb703dd04a455782"
     },
     "stats": {
       "total": 52,
@@ -53,6 +53,25 @@
     },
     "coverage": 100,
     "test_count": 6,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Adrian Paolo",
+    "commit": {
+      "date": "2026-09-09T20:54:00.000Z",
+      "message": "feat: añadiendo funcionalidad de impuestos",
+      "url": "https://github.com/adrianpaolo01/proyecto-ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 22,
+      "additions": 20,
+      "deletions": 2,
+      "date": "2026-09-09"
+    },
+    "coverage": 100,
+    "test_count": 7,
     "failed_tests": 0,
     "conclusion": "success"
   }

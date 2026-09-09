@@ -68,9 +68,23 @@
     "testId": 2
   },
   {
-    "commitId": "HEAD",
+    "commitId": "682f9dc2639dbe24fe1088faeb703dd04a455782",
     "commitName": "fix: arreglando la funcionalidad de impuestos",
     "commitTimestamp": 1788985782541,
     "testId": 2
+  },
+  {
+    "numPassedTests": 7,
+    "failedTests": 0,
+    "numTotalTests": 7,
+    "timestamp": 1788987213052,
+    "success": true,
+    "testId": 3
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: añadiendo funcionalidad de impuestos",
+    "commitTimestamp": 1788987241483,
+    "testId": 3
   }
 ]

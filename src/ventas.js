@@ -38,7 +38,15 @@ class Ventas{
         return precioFinal
     }
 
-    
+    aplicarDescuento(precioFinal){
+        if(precioFinal > 1000 && precioFinal < 3000){
+            let descuento = precioFinal * 0.03
+            let precioFinalConDescuento = precioFinal - descuento
+            return precioFinalConDescuento
+        }
+    }
+
+
 
 
 }
