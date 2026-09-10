@@ -172,7 +172,11 @@ it("el cliente Normal debe tener 0% de descuento en el envío", () => {
     expect(ventas.obtenerDescuentoEnvio("Normal")).toEqual(0)
 })
 
+it("el cliente Recurrente debe tener 0.5% de descuento en el envío", () => {
+    let ventas = new Ventas()
 
+    expect(ventas.obtenerDescuentoEnvio("Recurrente")).toEqual(0.05)
+})
 
 
 });

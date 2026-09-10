@@ -175,6 +175,10 @@ class Ventas{
         if(tipoCliente === "Normal"){
             return 0
         }
+        
+        if(tipoCliente === "Recurrente"){
+            return 0.05
+        }
     }
 }
 export default Ventas
