@@ -452,9 +452,63 @@
     "testId": 14
   },
   {
-    "commitId": "HEAD",
+    "commitId": "b6c12100c90fe52fe67ae80ce0791f9df3a175f6",
     "commitName": "feat: funcionalidad tests de calcular descuento total",
     "commitTimestamp": 1789015153701,
     "testId": 14
+  },
+  {
+    "numPassedTests": 21,
+    "failedTests": 0,
+    "numTotalTests": 21,
+    "timestamp": 1789015740579,
+    "success": true,
+    "testId": 15
+  },
+  {
+    "numPassedTests": 21,
+    "failedTests": 0,
+    "numTotalTests": 21,
+    "timestamp": 1789015750560,
+    "success": true,
+    "testId": 15
+  },
+  {
+    "numPassedTests": 21,
+    "failedTests": 0,
+    "numTotalTests": 21,
+    "timestamp": 1789015756811,
+    "success": true,
+    "testId": 15
+  },
+  {
+    "numPassedTests": 20,
+    "failedTests": 1,
+    "numTotalTests": 21,
+    "timestamp": 1789015763023,
+    "success": false,
+    "testId": 15
+  },
+  {
+    "numPassedTests": 21,
+    "failedTests": 0,
+    "numTotalTests": 21,
+    "timestamp": 1789015774346,
+    "success": true,
+    "testId": 15
+  },
+  {
+    "numPassedTests": 21,
+    "failedTests": 0,
+    "numTotalTests": 21,
+    "timestamp": 1789015834441,
+    "success": true,
+    "testId": 15
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: test costo de envio por unidad",
+    "commitTimestamp": 1789015860871,
+    "testId": 15
   }
 ]

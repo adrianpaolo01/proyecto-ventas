@@ -132,6 +132,17 @@ it("el descuento de Alimentos debe sumarse al descuento de la orden", () => {
     expect(ventas.calcularDescuentoTotal(5, "Alimentos")).toEqual(7)
 })
 
+// Tests de peso volumetrico
+it("si el peso volumétrico está entre 0 y 10, el costo de envío es 0", () => {
+    let ventas = new Ventas()
+
+    expect(ventas.obtenerCostoEnvioPorUnidad(5)).toEqual(0)
+})
+
+
+
+
+
 
 
 

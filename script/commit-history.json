@@ -266,12 +266,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "b6c12100c90fe52fe67ae80ce0791f9df3a175f6",
     "author": "Adrian Paolo",
     "commit": {
       "date": "2026-09-10T04:39:12.000Z",
       "message": "feat: funcionalidad tests de calcular descuento total",
-      "url": "https://github.com/adrianpaolo01/proyecto-ventas/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/proyecto-ventas/commit/b6c12100c90fe52fe67ae80ce0791f9df3a175f6"
     },
     "stats": {
       "total": 11,
@@ -281,6 +281,25 @@
     },
     "coverage": 96.08,
     "test_count": 20,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Adrian Paolo",
+    "commit": {
+      "date": "2026-09-10T04:50:59.000Z",
+      "message": "feat: test costo de envio por unidad",
+      "url": "https://github.com/adrianpaolo01/proyecto-ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 18,
+      "additions": 18,
+      "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 96.23,
+    "test_count": 21,
     "failed_tests": 0,
     "conclusion": "success"
   }

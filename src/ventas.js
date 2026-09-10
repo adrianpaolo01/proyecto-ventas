@@ -138,5 +138,12 @@ class Ventas{
         let descuentoTotal = descuentoEstado + this.obtenerDescuentoCategoria(nombreCategoria)
         return descuentoTotal
     }
+
+    obtenerCostoEnvioPorUnidad(peso){
+         if (peso >= 0 && peso <= 10) {
+        return 0
+    }
+    }
+
 }
 export default Ventas
