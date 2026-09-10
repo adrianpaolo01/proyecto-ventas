@@ -126,6 +126,12 @@ it("el impuesto de Electrónicos debe sumarse al impuesto del estado", () => {
     expect(ventas.calcularImpuestoTotal(8.25, "Electrónicos")).toEqual(12.25)
 })
 
+it("el descuento de Alimentos debe sumarse al descuento de la orden", () => {
+    let ventas = new Ventas()
+
+    expect(ventas.calcularDescuentoTotal(5, "Alimentos")).toEqual(7)
+})
+
 
 
 

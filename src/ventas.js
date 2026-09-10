@@ -133,5 +133,10 @@ class Ventas{
         let impuestoTotal = impuestoEstado + this.obtenerImpuestoCategoria(nombreCategoria)
         return impuestoTotal
     }
+
+    calcularDescuentoTotal(descuentoEstado, nombreCategoria){
+        let descuentoTotal = descuentoEstado + this.obtenerDescuentoCategoria(nombreCategoria)
+        return descuentoTotal
+    }
 }
 export default Ventas

@@ -422,9 +422,39 @@
     "testId": 13
   },
   {
-    "commitId": "HEAD",
+    "commitId": "895b4f17f400069980d3745b66bc22c2e29082a9",
     "commitName": "feat: funcionalidad tests de calcular impeusto total",
     "commitTimestamp": 1789015042453,
     "testId": 13
+  },
+  {
+    "numPassedTests": 19,
+    "failedTests": 1,
+    "numTotalTests": 20,
+    "timestamp": 1789015118266,
+    "success": false,
+    "testId": 14
+  },
+  {
+    "numPassedTests": 19,
+    "failedTests": 1,
+    "numTotalTests": 20,
+    "timestamp": 1789015126561,
+    "success": false,
+    "testId": 14
+  },
+  {
+    "numPassedTests": 20,
+    "failedTests": 0,
+    "numTotalTests": 20,
+    "timestamp": 1789015141042,
+    "success": true,
+    "testId": 14
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: funcionalidad tests de calcular descuento total",
+    "commitTimestamp": 1789015153701,
+    "testId": 14
   }
 ]

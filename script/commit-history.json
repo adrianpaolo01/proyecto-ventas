@@ -247,12 +247,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "895b4f17f400069980d3745b66bc22c2e29082a9",
     "author": "Adrian Paolo",
     "commit": {
       "date": "2026-09-10T04:37:21.000Z",
       "message": "feat: funcionalidad tests de calcular impeusto total",
-      "url": "https://github.com/adrianpaolo01/proyecto-ventas/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/proyecto-ventas/commit/895b4f17f400069980d3745b66bc22c2e29082a9"
     },
     "stats": {
       "total": 10,
@@ -262,6 +262,25 @@
     },
     "coverage": 95.92,
     "test_count": 19,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Adrian Paolo",
+    "commit": {
+      "date": "2026-09-10T04:39:12.000Z",
+      "message": "feat: funcionalidad tests de calcular descuento total",
+      "url": "https://github.com/adrianpaolo01/proyecto-ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 11,
+      "additions": 11,
+      "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 96.08,
+    "test_count": 20,
     "failed_tests": 0,
     "conclusion": "success"
   }
