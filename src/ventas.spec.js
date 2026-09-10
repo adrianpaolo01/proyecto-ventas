@@ -139,7 +139,11 @@ it("si el peso volumétrico está entre 0 y 10, el costo de envío es 0", () => 
     expect(ventas.obtenerCostoEnvioPorUnidad(5)).toEqual(0)
 })
 
+it("si el peso volumétrico está entre 21 y 40, el costo de envío es 5", () => {
+    let ventas = new Ventas()
 
+    expect(ventas.obtenerCostoEnvioPorUnidad(30)).toEqual(5)
+})
 
 
 
