@@ -1,5 +1,5 @@
-import sumar from "./sumador";
-import Ventas from "./ventas";
+import sumar from "./sumador.js";
+import Ventas from "./ventas.js";
 
 const first = document.querySelector("#primer-numero");
 const second = document.querySelector("#segundo-numero");

@@ -838,9 +838,23 @@
     "testId": 28
   },
   {
-    "commitId": "HEAD",
+    "commitId": "1dbee715d5e8e0c372cb848ae443b6e86bc4bf31",
     "commitName": "fix: errores de compilacion",
     "commitTimestamp": 1789051104597,
     "testId": 29
+  },
+  {
+    "numPassedTests": 33,
+    "failedTests": 0,
+    "numTotalTests": 33,
+    "timestamp": 1789051549828,
+    "success": true,
+    "testId": 30
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix: configurar despliegue de netlify",
+    "commitTimestamp": 1789051616028,
+    "testId": 30
   }
 ]

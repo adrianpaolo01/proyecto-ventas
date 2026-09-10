@@ -551,17 +551,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "1dbee715d5e8e0c372cb848ae443b6e86bc4bf31",
     "author": "Adrian Paolo",
     "commit": {
       "date": "2026-09-10T14:38:22.000Z",
       "message": "fix: errores de compilacion",
-      "url": "https://github.com/adrianpaolo01/proyecto-ventas/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/proyecto-ventas/commit/1dbee715d5e8e0c372cb848ae443b6e86bc4bf31"
     },
     "stats": {
       "total": 68,
       "additions": 21,
       "deletions": 47,
+      "date": "2026-09-10"
+    },
+    "coverage": 97.1,
+    "test_count": 33,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Adrian Paolo",
+    "commit": {
+      "date": "2026-09-10T14:46:54.000Z",
+      "message": "fix: configurar despliegue de netlify",
+      "url": "https://github.com/adrianpaolo01/proyecto-ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 5,
+      "deletions": 2,
       "date": "2026-09-10"
     },
     "coverage": 97.1,
