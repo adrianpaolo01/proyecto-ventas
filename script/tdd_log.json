@@ -214,9 +214,47 @@
     "testId": 9
   },
   {
-    "commitId": "HEAD",
+    "commitId": "e47bb01ad294d62289e605e56281a46ab79ca79f",
     "commitName": "feat: validacion para que la cantidad de items sea mayor que 0",
     "commitTimestamp": 1789010582810,
     "testId": 9
+  },
+  {
+    "numPassedTests": 12,
+    "failedTests": 3,
+    "numTotalTests": 15,
+    "timestamp": 1789013170977,
+    "success": false,
+    "testId": 10
+  },
+  {
+    "numPassedTests": 12,
+    "failedTests": 2,
+    "numTotalTests": 14,
+    "timestamp": 1789013308269,
+    "success": false,
+    "testId": 10
+  },
+  {
+    "numPassedTests": 13,
+    "failedTests": 1,
+    "numTotalTests": 14,
+    "timestamp": 1789013402730,
+    "success": false,
+    "testId": 10
+  },
+  {
+    "numPassedTests": 14,
+    "failedTests": 0,
+    "numTotalTests": 14,
+    "timestamp": 1789013585422,
+    "success": true,
+    "testId": 10
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix: diccionario de estados con sus impuestos",
+    "commitTimestamp": 1789013650451,
+    "testId": 10
   }
 ]

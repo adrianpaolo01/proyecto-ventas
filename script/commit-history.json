@@ -171,12 +171,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "e47bb01ad294d62289e605e56281a46ab79ca79f",
     "author": "Adrian Paolo",
     "commit": {
       "date": "2026-09-10T03:23:01.000Z",
       "message": "feat: validacion para que la cantidad de items sea mayor que 0",
-      "url": "https://github.com/adrianpaolo01/proyecto-ventas/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/proyecto-ventas/commit/e47bb01ad294d62289e605e56281a46ab79ca79f"
     },
     "stats": {
       "total": 10,
@@ -186,6 +186,25 @@
     },
     "coverage": 100,
     "test_count": 13,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Adrian Paolo",
+    "commit": {
+      "date": "2026-09-10T04:14:09.000Z",
+      "message": "fix: diccionario de estados con sus impuestos",
+      "url": "https://github.com/adrianpaolo01/proyecto-ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 76,
+      "additions": 62,
+      "deletions": 14,
+      "date": "2026-09-10"
+    },
+    "coverage": 100,
+    "test_count": 14,
     "failed_tests": 0,
     "conclusion": "success"
   }

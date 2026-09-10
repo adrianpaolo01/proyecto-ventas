@@ -84,10 +84,20 @@ describe( "Ventas",() =>{
     expect(ventas.aplicarDescuento(30000)).toEqual(25500); 
   });
 
+  //Categorias de alimentos
+  it("debe tener la categoría Alimentos", () => {
+    let ventas = new Ventas()
+    let categorias = ventas.obtenerCategorias()
+    expect(categorias).toContainEqual({
+        nombre: "Alimentos",
+        impuesto: 0,
+        descuento: 2
+    })
 
-  
+  });
 
-  
+
+
 
 });
 

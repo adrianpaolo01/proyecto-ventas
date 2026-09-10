@@ -2,28 +2,65 @@ class Ventas{
     cantidadItems = 0;
     precioItem = 0;
 
+    // lista
+    categorias = [
+    {
+        nombre: "Alimentos",
+        impuesto: 0,
+        descuento: 2
+    },
+    {
+        nombre: "Bebidas alcohólicas",
+        impuesto: 7,
+        descuento: 0
+    },
+    {
+        nombre: "Material de escritorio",
+        impuesto: 0,
+        descuento: 1.5
+    },
+    {
+        nombre: "Muebles",
+        impuesto: 3,
+        descuento: 0
+    },
+    {
+        nombre: "Electrónicos",
+        impuesto: 4,
+        descuento: 1
+    },
+    {
+        nombre: "Vestimenta",
+        impuesto: 2,
+        descuento: 0
+    },
+    {
+        nombre: "Varios",
+        impuesto: 0,
+        descuento: 0
+    }]
+
+    obtenerCategorias(){
+        return this.categorias
+    }
+    
     // diccionario de siglas de estados de USA con sus impuestos (10 ejemplos)
     siglasEstados = {
-        "CA": 0.075, // 7.5%
-        "NY": 0.04, // 4%
-        "TX": 0.0625, // 6.25%
-        "FL": 0.06, // 6%
-        "IL": 0.0625,
-        "OH": 0.0575,
-        "GA": 0.04,
-        "NC": 0.0475,
-        "SC": 0.06
+         "CA": 0.075,
+         "UT": 0.0665,
+         "NV": 0.08,
+         "TX": 0.0625,
+         "AL": 0.04
     }
 
     constructor(){
         this.estado = "CA"
+        
     }
 
     obtenerEstado(){
         return this.estado
     }
-
-
 
     obtenerCantidadItems(cantItems){
           if(cantItems <= 0){
@@ -69,8 +106,9 @@ class Ventas{
             precioFinalConDescuento = precioFinal - descuento
         }
         return precioFinalConDescuento
-
     }
+
+    
 
 
 
