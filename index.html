@@ -1,29 +1,93 @@
 <!DOCTYPE html>
-<html xml:lang="es">
+<html lang="es">
   <head>
-    <title>Sumador</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora de ventas</title>
   </head>
-  <body>
-    <h1>Sumador</h1>
-    <form id="sumar-form">
-      <label for="primer-numero">Primer número:</label>
-      <input type="number" id="primer-numero" />
-      <label for="segundo-numero">Segundo número:</label>
-      <input type="number" id="segundo-numero" />
-      <input type="submit" value="Sumar" id="sumar-button" />
-    </form>
+  <body bgcolor="#d3d3d3">
+    <main class="app-shell">
+      <header class="page-header">
+        <p class="eyebrow">Tienda · TDD Lab</p>
+        <h1>Calculadora de ventas</h1>
+        <p>Ingresa los datos de la orden para obtener el total con impuestos, descuentos y envío.</p>
+      </header>
 
-    <h1>Ventas</h1>
-    <form id="formulario-ventas">
-      <label for="cantidad-items">Cantidad de items: </label>
-      <input type="number" id="cantidad-items"/>
-      <label for="precio-item">Precio del item</label>
-      <input type="number" id="precio-item">
-      <label for="codigo-estado">Codigo estado</label>
-      <input type="number" id="codigo-estado">
-    </form>
-    <div id="resultado-div"></div>
+      <section class="calculator-panel" aria-labelledby="venta-titulo">
+        <div class="panel-heading">
+          <div>
+            <p class="eyebrow">Nueva orden</p>
+            <h2 id="venta-titulo">Detalle de la compra</h2>
+          </div>
+          <span class="status-dot">Lista para calcular</span>
+        </div>
 
+        <form id="formulario-ventas">
+          <div class="input-grid">
+            <label for="cantidad-items">
+              Cantidad de items
+              <input type="number" id="cantidad-items" min="1" step="1" value="20" required />
+            </label>
+            <label for="precio-item">
+              Precio por item
+              <input type="number" id="precio-item" min="0.01" step="0.01" value="3" required />
+            </label>
+            <label for="codigo-estado">
+              Código de estado
+              <select id="codigo-estado">
+                <option value="CA">CA · 7.5%</option>
+                <option value="UT">UT · 6.65%</option>
+                <option value="NV">NV · 8%</option>
+                <option value="TX" selected>TX · 6.25%</option>
+                <option value="AL">AL · 4%</option>
+              </select>
+            </label>
+            <label for="categoria">
+              Categoría
+              <select id="categoria">
+                <option>Varios</option>
+                <option>Alimentos</option>
+                <option>Bebidas alcohólicas</option>
+                <option>Material de escritorio</option>
+                <option>Muebles</option>
+                <option>Electrónicos</option>
+                <option>Vestimenta</option>
+              </select>
+            </label>
+            <label for="tipo-cliente">
+              Tipo de cliente
+              <select id="tipo-cliente">
+                <option>Normal</option>
+                <option>Recurrente</option>
+                <option>Especial</option>
+              </select>
+            </label>
+            <label for="peso-item">
+              Peso volumétrico por item
+              <input type="number" id="peso-item" min="0" step="1" value="5" required />
+            </label>
+          </div>
+          <button type="submit" class="primary-button">Totalizar</button>
+        </form>
+
+        <div id="resultado-ventas" class="results" aria-live="polite">
+          <p class="result-placeholder">Completa la orden y selecciona “Totalizar”.</p>
+        </div>
+      </section>
+
+      <section class="sumador-panel" aria-labelledby="sumador-titulo">
+        <div>
+          <p class="eyebrow">Herramienta de prueba</p>
+          <h2 id="sumador-titulo">Sumador</h2>
+        </div>
+        <form id="sumar-form" class="sum-form">
+          <label for="primer-numero">Primer número<input type="number" id="primer-numero" required /></label>
+          <label for="segundo-numero">Segundo número<input type="number" id="segundo-numero" required /></label>
+          <button type="submit" id="sumar-button" class="secondary-button">Sumar</button>
+        </form>
+        <div id="resultado-div" class="sum-result" aria-live="polite"></div>
+      </section>
+    </main>
     <script type="module" src="./src/presenter.js"></script>
   </body>
 </html>

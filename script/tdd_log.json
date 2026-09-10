@@ -796,9 +796,31 @@
     "testId": 26
   },
   {
-    "commitId": "HEAD",
+    "commitId": "38ca8ce198963cdd66a62538efef2d30eadf6d32",
     "commitName": "feat: test de validacion para valores negativos en peso",
     "commitTimestamp": 1789017645154,
     "testId": 26
+  },
+  {
+    "numPassedTests": 33,
+    "failedTests": 0,
+    "numTotalTests": 33,
+    "timestamp": 1789018520979,
+    "success": true,
+    "testId": 27
+  },
+  {
+    "numPassedTests": 33,
+    "failedTests": 0,
+    "numTotalTests": 33,
+    "timestamp": 1789018677397,
+    "success": true,
+    "testId": 27
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: implementacion en el frontend",
+    "commitTimestamp": 1789018890947,
+    "testId": 27
   }
 ]
