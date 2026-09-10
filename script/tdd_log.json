@@ -192,9 +192,31 @@
     "testId": 8
   },
   {
-    "commitId": "HEAD",
+    "commitId": "bede6e91bc540f8b5d4009f0dc4d8ca71e601042",
     "commitName": "feat: funcionalidad para que CA sea el codigo por defecto",
     "commitTimestamp": 1789010289659,
     "testId": 8
+  },
+  {
+    "numPassedTests": 12,
+    "failedTests": 1,
+    "numTotalTests": 13,
+    "timestamp": 1789010543866,
+    "success": false,
+    "testId": 9
+  },
+  {
+    "numPassedTests": 13,
+    "failedTests": 0,
+    "numTotalTests": 13,
+    "timestamp": 1789010555464,
+    "success": true,
+    "testId": 9
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: validacion para que la cantidad de items sea mayor que 0",
+    "commitTimestamp": 1789010582810,
+    "testId": 9
   }
 ]

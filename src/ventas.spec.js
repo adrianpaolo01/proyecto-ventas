@@ -22,6 +22,11 @@ describe( "Ventas",() =>{
         expect(ventas.obtenerPrecioNeto(5,2)).toEqual(10); 
   });
 
+  it("validar que la cantidad de items sea mayor de 0", () => {
+    let ventas = new Ventas()
+        expect(() => ventas.obtenerCantidadItems(0)).toThrow("La cantidad de items no puede ser menor o igual a 0");
+  });
+  
   // Codigos de estados
   it("al ingresar la sigla CA, debe mostrar el precio final con impuesto", () => {
     let ventas = new Ventas()
@@ -78,6 +83,7 @@ describe( "Ventas",() =>{
     ventas.obtenerPrecioNeto(500,60)
     expect(ventas.aplicarDescuento(30000)).toEqual(25500); 
   });
+
 
   
 

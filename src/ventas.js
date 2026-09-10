@@ -24,7 +24,11 @@ class Ventas{
     }
 
 
+
     obtenerCantidadItems(cantItems){
+          if(cantItems <= 0){
+            throw new Error("La cantidad de items no puede ser menor o igual a 0");
+        }
         this.cantidadItems = cantItems;
         return this.cantidadItems;
     }
