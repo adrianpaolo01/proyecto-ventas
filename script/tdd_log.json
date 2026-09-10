@@ -384,9 +384,47 @@
     "testId": 12
   },
   {
-    "commitId": "HEAD",
+    "commitId": "16baa90c03a15fd22568743f37e9c65262994ff4",
     "commitName": "feat: funcionalidad tests de impeustos y categorias",
     "commitTimestamp": 1789014723093,
     "testId": 12
+  },
+  {
+    "numPassedTests": 18,
+    "failedTests": 1,
+    "numTotalTests": 19,
+    "timestamp": 1789014791224,
+    "success": false,
+    "testId": 13
+  },
+  {
+    "numPassedTests": 18,
+    "failedTests": 1,
+    "numTotalTests": 19,
+    "timestamp": 1789014937543,
+    "success": false,
+    "testId": 13
+  },
+  {
+    "numPassedTests": 18,
+    "failedTests": 1,
+    "numTotalTests": 19,
+    "timestamp": 1789014988971,
+    "success": false,
+    "testId": 13
+  },
+  {
+    "numPassedTests": 19,
+    "failedTests": 0,
+    "numTotalTests": 19,
+    "timestamp": 1789015015080,
+    "success": true,
+    "testId": 13
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: funcionalidad tests de calcular impeusto total",
+    "commitTimestamp": 1789015042453,
+    "testId": 13
   }
 ]

@@ -120,6 +120,12 @@ it("Bebidas alcohólicas debe tener un impuesto adicional del 7%", () => {
     expect(ventas.obtenerImpuestoCategoria("Bebidas alcohólicas")).toEqual(7)
 })
 
+it("el impuesto de Electrónicos debe sumarse al impuesto del estado", () => {
+    let ventas = new Ventas()
+
+    expect(ventas.calcularImpuestoTotal(8.25, "Electrónicos")).toEqual(12.25)
+})
+
 
 
 
