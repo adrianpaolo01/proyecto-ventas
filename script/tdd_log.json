@@ -252,9 +252,47 @@
     "testId": 10
   },
   {
-    "commitId": "HEAD",
+    "commitId": "0f98b8c8ac9ad4f560ec0958b3a3ade8f9b35475",
     "commitName": "fix: diccionario de estados con sus impuestos",
     "commitTimestamp": 1789013650451,
     "testId": 10
+  },
+  {
+    "numPassedTests": 15,
+    "failedTests": 0,
+    "numTotalTests": 15,
+    "timestamp": 1789013967402,
+    "success": true,
+    "testId": 11
+  },
+  {
+    "numPassedTests": 15,
+    "failedTests": 0,
+    "numTotalTests": 15,
+    "timestamp": 1789013984360,
+    "success": true,
+    "testId": 11
+  },
+  {
+    "numPassedTests": 14,
+    "failedTests": 1,
+    "numTotalTests": 15,
+    "timestamp": 1789014008263,
+    "success": false,
+    "testId": 11
+  },
+  {
+    "numPassedTests": 15,
+    "failedTests": 0,
+    "numTotalTests": 15,
+    "timestamp": 1789014017123,
+    "success": true,
+    "testId": 11
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: funcionalidad categoria por defecto",
+    "commitTimestamp": 1789014037465,
+    "testId": 11
   }
 ]

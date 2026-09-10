@@ -44,6 +44,7 @@ class Ventas{
         return this.categorias
     }
     
+
     // diccionario de siglas de estados de USA con sus impuestos (10 ejemplos)
     siglasEstados = {
          "CA": 0.075,
@@ -55,7 +56,9 @@ class Ventas{
 
     constructor(){
         this.estado = "CA"
-        
+        // Categorias varios por defecto
+        this.categoria = "Varios"
+
     }
 
     obtenerEstado(){

@@ -95,6 +95,12 @@ describe( "Ventas",() =>{
     })
 
   });
+  
+   it("categoria Varios por defecto", () => {
+    let ventas = new Ventas()
+    expect(ventas.categoria).toEqual("Varios");
+  });
+
 
 
 
