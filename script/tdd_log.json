@@ -832,9 +832,15 @@
     "testId": 28
   },
   {
-    "commitId": "HEAD",
+    "commitId": "79c3b19a40c861cecf3d3adc0538dd2223551572",
     "commitName": "fix: refactorizacion de dos funciones",
     "commitTimestamp": 1789019580830,
     "testId": 28
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix: errores de compilacion",
+    "commitTimestamp": 1789051104597,
+    "testId": 29
   }
 ]

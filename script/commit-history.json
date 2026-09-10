@@ -532,12 +532,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "79c3b19a40c861cecf3d3adc0538dd2223551572",
     "author": "Adrian Paolo",
     "commit": {
       "date": "2026-09-10T05:52:59.000Z",
       "message": "fix: refactorizacion de dos funciones",
-      "url": "https://github.com/adrianpaolo01/proyecto-ventas/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/proyecto-ventas/commit/79c3b19a40c861cecf3d3adc0538dd2223551572"
     },
     "stats": {
       "total": 0,
@@ -546,6 +546,25 @@
       "date": "2026-09-10"
     },
     "coverage": 93.98,
+    "test_count": 33,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Adrian Paolo",
+    "commit": {
+      "date": "2026-09-10T14:38:22.000Z",
+      "message": "fix: errores de compilacion",
+      "url": "https://github.com/adrianpaolo01/proyecto-ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 68,
+      "additions": 21,
+      "deletions": 47,
+      "date": "2026-09-10"
+    },
+    "coverage": 97.1,
     "test_count": 33,
     "failed_tests": 0,
     "conclusion": "success"

@@ -93,25 +93,15 @@ class Ventas{
         return precioFinal
     }
 
-    aplicarDescuento(precioFinal){
-        let descuento, precioFinalConDescuento 
-        if(precioFinal > 1000 && precioFinal < 3000){
-             descuento = precioFinal * 0.03
-             precioFinalConDescuento = precioFinal - descuento
-        }else if(precioFinal > 3000 && precioFinal < 7000){
-             descuento = precioFinal * 0.05
-             precioFinalConDescuento = precioFinal - descuento
-        }else if(precioFinal >= 7000 && precioFinal < 10000){
-             descuento = precioFinal * 0.07
-             precioFinalConDescuento = precioFinal - descuento
-        }else if(precioFinal >= 10000 && precioFinal < 30000){
-                descuento = precioFinal * 0.1
-                precioFinalConDescuento = precioFinal - descuento
-        }else if(precioFinal >= 30000){
-            descuento = precioFinal * 0.15
-            precioFinalConDescuento = precioFinal - descuento
-        }
-        return precioFinalConDescuento
+    aplicarDescuento(precioFinal){ //refactorizado
+        let porcentajeDescuento = 0 
+        if (precioFinal >= 30000){ porcentajeDescuento = 0.15 }
+        else if (precioFinal >= 10000) { porcentajeDescuento = 0.10 } 
+        else if (precioFinal >= 7000) { porcentajeDescuento = 0.07 }
+         else if (precioFinal >= 3000) { porcentajeDescuento = 0.05 } 
+         else if (precioFinal >= 1000) { porcentajeDescuento = 0.03 } 
+
+         return precioFinal - (precioFinal * porcentajeDescuento)
     }
 
     obtenerDescuentoCategoria(categoria) {
@@ -142,34 +132,18 @@ class Ventas{
         return descuentoTotal
     }
 
-    obtenerCostoEnvioPorUnidad(peso){
-        if(peso < 0){
-            throw new Error("El peso no puede ser negativo")
-        }
-         if (peso >= 0 && peso <= 10) {
-        return 0
-    }
-      if(peso >= 11 && peso <= 20){
-        return 3.5
-    }
-      if (peso >= 21 && peso <= 40) {
-        return 5
-    }
-     if (peso >= 41 && peso <= 80) {
-        return 6
-    }
-
-    if (peso >= 81 && peso <= 100) {
-        return 6.5
-    }
-
-    if (peso >= 101 && peso <= 200) {
-        return 8
-    }
-
-    if (peso > 200) {
-        return 9
-    }
+    obtenerCostoEnvioPorUnidad(peso){ //refactorizado
+       if (peso < 0) { throw new Error("El peso no puede ser negativo") }
+        const rangosEnvio = [
+            { max: 10, costo: 0 },
+            { max: 20, costo: 3.5 },
+            { max: 40, costo: 5 },
+            { max: 80, costo: 6 },
+            { max: 100, costo: 6.5 },
+            { max: 200, costo: 8 }, 
+            { max: Infinity, costo: 9 } ] 
+       const rango = rangosEnvio.find(rango => peso <= rango.max)
+        return rango.costo
     }
 
     calcularCostoEnvio(cantidad, peso) {
