@@ -304,12 +304,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "19c26316f0f0382c1f3e63268d8f82150f659e34",
     "author": "Adrian Paolo",
     "commit": {
       "date": "2026-09-10T04:53:59.000Z",
       "message": "feat: test costo de envio por unidad de 21 y 40",
-      "url": "https://github.com/adrianpaolo01/proyecto-ventas/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/proyecto-ventas/commit/19c26316f0f0382c1f3e63268d8f82150f659e34"
     },
     "stats": {
       "total": 10,
@@ -319,6 +319,25 @@
     },
     "coverage": 94.74,
     "test_count": 22,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Adrian Paolo",
+    "commit": {
+      "date": "2026-09-10T04:55:23.000Z",
+      "message": "feat: test costo de envio por unidad de 200 y completando la funcion de envio por unidad",
+      "url": "https://github.com/adrianpaolo01/proyecto-ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 21,
+      "additions": 21,
+      "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 90.77,
+    "test_count": 23,
     "failed_tests": 0,
     "conclusion": "success"
   }
