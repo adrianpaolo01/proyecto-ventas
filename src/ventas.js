@@ -111,10 +111,23 @@ class Ventas{
         return precioFinalConDescuento
     }
 
-    
+    obtenerDescuentoCategoria(categoria) {
+    // buscar categoría
+    let categoriaEncontrada = this.categorias.find(cat => cat.nombre === categoria);
+    if (categoriaEncontrada) {
+        return categoriaEncontrada.descuento;
+    } else {
+        throw new Error("Categoría no encontrada");
+    }}
 
-
-
+    obtenerImpuestoCategoria(categoria){
+        let categoriaEncontrada = this.categorias.find(cat => cat.nombre === categoria);
+        if(categoriaEncontrada){
+            return categoriaEncontrada.impuesto
+        } else {
+            throw new Error("Impuesto no encotrado")
+        }
+    }
 
 }
 export default Ventas

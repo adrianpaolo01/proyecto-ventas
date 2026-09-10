@@ -85,6 +85,7 @@ describe( "Ventas",() =>{
   });
 
   //Categorias de alimentos
+
   it("debe tener la categoría Alimentos", () => {
     let ventas = new Ventas()
     let categorias = ventas.obtenerCategorias()
@@ -101,6 +102,23 @@ describe( "Ventas",() =>{
     expect(ventas.categoria).toEqual("Varios");
   });
 
+  it("Alimentos debe tener un descuento adicional del 2%", () => {
+    let ventas = new Ventas()
+
+    expect(ventas.obtenerDescuentoCategoria("Alimentos")).toEqual(2)
+})
+
+it("Bebidas alcohólicas no debe tener descuento adicional", () => {
+    let ventas = new Ventas()
+
+    expect(ventas.obtenerDescuentoCategoria("Bebidas alcohólicas")).toEqual(0)
+})
+
+it("Bebidas alcohólicas debe tener un impuesto adicional del 7%", () => {
+    let ventas = new Ventas()
+
+    expect(ventas.obtenerImpuestoCategoria("Bebidas alcohólicas")).toEqual(7)
+})
 
 
 

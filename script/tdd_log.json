@@ -290,9 +290,103 @@
     "testId": 11
   },
   {
-    "commitId": "HEAD",
+    "commitId": "75ca161e45e2dd48274d9bcb25f8f4a4155142c6",
     "commitName": "feat: funcionalidad categoria por defecto",
     "commitTimestamp": 1789014037465,
     "testId": 11
+  },
+  {
+    "numPassedTests": 16,
+    "failedTests": 0,
+    "numTotalTests": 16,
+    "timestamp": 1789014244826,
+    "success": true,
+    "testId": 12
+  },
+  {
+    "numPassedTests": 15,
+    "failedTests": 0,
+    "numTotalTests": 15,
+    "timestamp": 1789014302680,
+    "success": true,
+    "testId": 12
+  },
+  {
+    "numPassedTests": 15,
+    "failedTests": 1,
+    "numTotalTests": 16,
+    "timestamp": 1789014315349,
+    "success": false,
+    "testId": 12
+  },
+  {
+    "numPassedTests": 15,
+    "failedTests": 2,
+    "numTotalTests": 17,
+    "timestamp": 1789014358637,
+    "success": false,
+    "testId": 12
+  },
+  {
+    "numPassedTests": 15,
+    "failedTests": 2,
+    "numTotalTests": 17,
+    "timestamp": 1789014365751,
+    "success": false,
+    "testId": 12
+  },
+  {
+    "numPassedTests": 16,
+    "failedTests": 0,
+    "numTotalTests": 16,
+    "timestamp": 1789014458463,
+    "success": true,
+    "testId": 12
+  },
+  {
+    "numPassedTests": 17,
+    "failedTests": 0,
+    "numTotalTests": 17,
+    "timestamp": 1789014487790,
+    "success": true,
+    "testId": 12
+  },
+  {
+    "numPassedTests": 17,
+    "failedTests": 0,
+    "numTotalTests": 17,
+    "timestamp": 1789014497611,
+    "success": true,
+    "testId": 12
+  },
+  {
+    "numPassedTests": 17,
+    "failedTests": 1,
+    "numTotalTests": 18,
+    "timestamp": 1789014550985,
+    "success": false,
+    "testId": 12
+  },
+  {
+    "numPassedTests": 17,
+    "failedTests": 1,
+    "numTotalTests": 18,
+    "timestamp": 1789014689396,
+    "success": false,
+    "testId": 12
+  },
+  {
+    "numPassedTests": 18,
+    "failedTests": 0,
+    "numTotalTests": 18,
+    "timestamp": 1789014702505,
+    "success": true,
+    "testId": 12
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: funcionalidad tests de impeustos y categorias",
+    "commitTimestamp": 1789014723093,
+    "testId": 12
   }
 ]
