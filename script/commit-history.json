@@ -342,12 +342,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "c89df16785b0b13ecb814bf35d659a0c1879d5f7",
     "author": "Adrian Paolo",
     "commit": {
       "date": "2026-09-10T04:56:55.000Z",
       "message": "feat: test calcular costo de envio",
-      "url": "https://github.com/adrianpaolo01/proyecto-ventas/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/proyecto-ventas/commit/c89df16785b0b13ecb814bf35d659a0c1879d5f7"
     },
     "stats": {
       "total": 13,
@@ -357,6 +357,25 @@
     },
     "coverage": 92.54,
     "test_count": 24,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Adrian Paolo",
+    "commit": {
+      "date": "2026-09-10T05:01:07.000Z",
+      "message": "feat: test de 0% de descuento si el cliente es Normal",
+      "url": "https://github.com/adrianpaolo01/proyecto-ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 26,
+      "additions": 21,
+      "deletions": 5,
+      "date": "2026-09-10"
+    },
+    "coverage": 92.86,
+    "test_count": 26,
     "failed_tests": 0,
     "conclusion": "success"
   }

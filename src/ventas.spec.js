@@ -159,6 +159,18 @@ it("10 unidades con peso volumétrico de 15 deben tener un costo de envío de 35
     expect(ventas.calcularCostoEnvio(10, 15)).toEqual(35)
 })
 
+it("5 unidades con peso volumétrico de 30 deben tener un costo de envío de 25", () => {
+    let ventas = new Ventas()
+
+    expect(ventas.calcularCostoEnvio(5, 30)).toEqual(25)
+})
+
+// Descuento de envio segun el tipo del cliente
+it("el cliente Normal debe tener 0% de descuento en el envío", () => {
+    let ventas = new Ventas()
+
+    expect(ventas.obtenerDescuentoEnvio("Normal")).toEqual(0)
+})
 
 
 

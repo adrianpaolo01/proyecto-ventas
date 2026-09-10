@@ -580,9 +580,39 @@
     "testId": 18
   },
   {
-    "commitId": "HEAD",
+    "commitId": "c89df16785b0b13ecb814bf35d659a0c1879d5f7",
     "commitName": "feat: test calcular costo de envio",
     "commitTimestamp": 1789016216595,
     "testId": 18
+  },
+  {
+    "numPassedTests": 25,
+    "failedTests": 0,
+    "numTotalTests": 25,
+    "timestamp": 1789016249246,
+    "success": true,
+    "testId": 19
+  },
+  {
+    "numPassedTests": 25,
+    "failedTests": 1,
+    "numTotalTests": 26,
+    "timestamp": 1789016297195,
+    "success": false,
+    "testId": 19
+  },
+  {
+    "numPassedTests": 26,
+    "failedTests": 0,
+    "numTotalTests": 26,
+    "timestamp": 1789016442509,
+    "success": true,
+    "testId": 19
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: test de 0% de descuento si el cliente es Normal",
+    "commitTimestamp": 1789016468918,
+    "testId": 19
   }
 ]

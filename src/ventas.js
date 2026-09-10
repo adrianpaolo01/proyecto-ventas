@@ -58,7 +58,7 @@ class Ventas{
         this.estado = "CA"
         // Categorias varios por defecto
         this.categoria = "Varios"
-
+        this.tipoCliente = "Normal"
     }
 
     obtenerEstado(){
@@ -167,10 +167,14 @@ class Ventas{
     }
 
     calcularCostoEnvio(cantidad, peso) {
-    let costoPorUnidad = this.obtenerCostoEnvioPorUnidad(peso)
+        let costoPorUnidad = this.obtenerCostoEnvioPorUnidad(peso)
+        return cantidad * costoPorUnidad
+    }
 
-    return cantidad * costoPorUnidad
-}
-
+    obtenerDescuentoEnvio(tipoCliente){
+        if(tipoCliente === "Normal"){
+            return 0
+        }
+    }
 }
 export default Ventas
