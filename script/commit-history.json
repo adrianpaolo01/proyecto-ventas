@@ -513,17 +513,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "08996661611411627506a7d63ffe034e2b3f3c86",
     "author": "Adrian Paolo",
     "commit": {
       "date": "2026-09-10T05:41:29.000Z",
       "message": "feat: implementacion en el frontend",
-      "url": "https://github.com/adrianpaolo01/proyecto-ventas/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/proyecto-ventas/commit/08996661611411627506a7d63ffe034e2b3f3c86"
     },
     "stats": {
       "total": 146,
       "additions": 125,
       "deletions": 21,
+      "date": "2026-09-10"
+    },
+    "coverage": 93.98,
+    "test_count": 33,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Adrian Paolo",
+    "commit": {
+      "date": "2026-09-10T05:52:59.000Z",
+      "message": "fix: refactorizacion de dos funciones",
+      "url": "https://github.com/adrianpaolo01/proyecto-ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 0,
+      "additions": 0,
+      "deletions": 0,
       "date": "2026-09-10"
     },
     "coverage": 93.98,

@@ -818,9 +818,23 @@
     "testId": 27
   },
   {
-    "commitId": "HEAD",
+    "commitId": "08996661611411627506a7d63ffe034e2b3f3c86",
     "commitName": "feat: implementacion en el frontend",
     "commitTimestamp": 1789018890947,
     "testId": 27
+  },
+  {
+    "numPassedTests": 33,
+    "failedTests": 0,
+    "numTotalTests": 33,
+    "timestamp": 1789019449144,
+    "success": true,
+    "testId": 28
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix: refactorizacion de dos funciones",
+    "commitTimestamp": 1789019580830,
+    "testId": 28
   }
 ]
