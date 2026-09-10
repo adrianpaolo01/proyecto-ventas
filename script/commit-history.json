@@ -437,12 +437,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "e25c72c335c8b1bd55d585648d94175a0fd87f81",
     "author": "Adrian Paolo",
     "commit": {
       "date": "2026-09-10T05:13:36.000Z",
       "message": "feat: test de descuentos fijos para especial y electronicoos",
-      "url": "https://github.com/adrianpaolo01/proyecto-ventas/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/proyecto-ventas/commit/e25c72c335c8b1bd55d585648d94175a0fd87f81"
     },
     "stats": {
       "total": 12,
@@ -452,6 +452,25 @@
     },
     "coverage": 93.59,
     "test_count": 30,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Adrian Paolo",
+    "commit": {
+      "date": "2026-09-10T05:16:26.000Z",
+      "message": "feat: test de descuentos fijos para normal sin descuento",
+      "url": "https://github.com/adrianpaolo01/proyecto-ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 11,
+      "additions": 10,
+      "deletions": 1,
+      "date": "2026-09-10"
+    },
+    "coverage": 93.67,
+    "test_count": 31,
     "failed_tests": 0,
     "conclusion": "success"
   }

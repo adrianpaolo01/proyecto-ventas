@@ -714,9 +714,39 @@
     "testId": 23
   },
   {
-    "commitId": "HEAD",
+    "commitId": "e25c72c335c8b1bd55d585648d94175a0fd87f81",
     "commitName": "feat: test de descuentos fijos para especial y electronicoos",
     "commitTimestamp": 1789017217245,
     "testId": 23
+  },
+  {
+    "numPassedTests": 30,
+    "failedTests": 1,
+    "numTotalTests": 31,
+    "timestamp": 1789017261867,
+    "success": false,
+    "testId": 24
+  },
+  {
+    "numPassedTests": 30,
+    "failedTests": 1,
+    "numTotalTests": 31,
+    "timestamp": 1789017344875,
+    "success": false,
+    "testId": 24
+  },
+  {
+    "numPassedTests": 31,
+    "failedTests": 0,
+    "numTotalTests": 31,
+    "timestamp": 1789017367718,
+    "success": true,
+    "testId": 24
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: test de descuentos fijos para normal sin descuento",
+    "commitTimestamp": 1789017387269,
+    "testId": 24
   }
 ]

@@ -201,6 +201,14 @@ it("un cliente Especial que compra más de 7000 en Electrónicos obtiene 200 de 
     ).toEqual(200)
 })
 
+it("si no se cumplen las condiciones para un descuento fijo, el descuento es 0", () => {
+    let ventas = new Ventas()
+
+    expect(
+        ventas.obtenerDescuentoFijo("Normal", 5000, "Alimentos")
+    ).toEqual(0)
+})
+
 
 });
 

@@ -190,6 +190,7 @@ class Ventas{
         if (tipoCliente === "Especial" && precioNeto > 5000 && categoria === "Electrónicos") {
             return 200
         }
-    }
+            return 0 
+}
 }
 export default Ventas
