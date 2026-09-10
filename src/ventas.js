@@ -179,6 +179,9 @@ class Ventas{
         if(tipoCliente === "Recurrente"){
             return 0.05
         }
+        if(tipoCliente === "Especial"){
+            return 1.5
+        }
     }
 }
 export default Ventas

@@ -640,9 +640,31 @@
     "testId": 20
   },
   {
-    "commitId": "HEAD",
+    "commitId": "a637b167fa0830da8af6d4b9f31e596d02f0e310",
     "commitName": "feat: test de 0.05% de descuento si el cliente es Recurrente",
     "commitTimestamp": 1789016583436,
     "testId": 20
+  },
+  {
+    "numPassedTests": 27,
+    "failedTests": 1,
+    "numTotalTests": 28,
+    "timestamp": 1789016603903,
+    "success": false,
+    "testId": 21
+  },
+  {
+    "numPassedTests": 28,
+    "failedTests": 0,
+    "numTotalTests": 28,
+    "timestamp": 1789016641395,
+    "success": true,
+    "testId": 21
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: test de 1.5% de descuento si el cliente es Especial",
+    "commitTimestamp": 1789016665920,
+    "testId": 21
   }
 ]
