@@ -15,6 +15,14 @@ class Ventas{
         "SC": 0.06
     }
 
+    constructor(){
+        this.estado = "CA"
+    }
+
+    obtenerEstado(){
+        return this.estado
+    }
+
 
     obtenerCantidadItems(cantItems){
         this.cantidadItems = cantItems;

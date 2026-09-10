@@ -162,9 +162,39 @@
     "testId": 7
   },
   {
-    "commitId": "HEAD",
+    "commitId": "aa1e5867edc2961048d8a64c9eccd47c84edead3",
     "commitName": "feat: añadiendo funcionalidad de impuestos de mayores a 30000",
     "commitTimestamp": 1788989263142,
     "testId": 7
+  },
+  {
+    "numPassedTests": 11,
+    "failedTests": 0,
+    "numTotalTests": 11,
+    "timestamp": 1789008398396,
+    "success": true,
+    "testId": 8
+  },
+  {
+    "numPassedTests": 11,
+    "failedTests": 1,
+    "numTotalTests": 12,
+    "timestamp": 1789010041456,
+    "success": false,
+    "testId": 8
+  },
+  {
+    "numPassedTests": 12,
+    "failedTests": 0,
+    "numTotalTests": 12,
+    "timestamp": 1789010258090,
+    "success": true,
+    "testId": 8
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: funcionalidad para que CA sea el codigo por defecto",
+    "commitTimestamp": 1789010289659,
+    "testId": 8
   }
 ]

@@ -32,6 +32,12 @@ describe( "Ventas",() =>{
     expect(ventas.aplicarImpuesto("CA")).toEqual(64.5); 
   });
 
+  it("si no se selecciona un estado, California es el estado por defecto", () => {
+    let ventas = new Ventas()
+
+    expect(ventas.obtenerEstado()).toEqual("CA")
+})
+
   // Descuentos
   it("al hacer una compra mayor a 1000 y menor a 3000, se aplica un descuento del 3%", () => {
     let ventas = new Ventas()
@@ -65,13 +71,16 @@ describe( "Ventas",() =>{
     expect(ventas.aplicarDescuento(12000)).toEqual(10800); 
   });
 
-    it("al hacer una compra mayor o igual a 30000, se aplica un descuento del 15%", () => {
+  it("al hacer una compra mayor o igual a 30000, se aplica un descuento del 15%", () => {
     let ventas = new Ventas()
     ventas.obtenerCantidadItems(500)
     ventas.obtenerPrecioItem(60)
     ventas.obtenerPrecioNeto(500,60)
     expect(ventas.aplicarDescuento(30000)).toEqual(25500); 
   });
+
+  
+
   
 
 });
