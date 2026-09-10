@@ -216,5 +216,11 @@ it("el precio del item no puede ser negativo", () => {
     expect(() => ventas.obtenerPrecioItem(-10)).toThrow()
 })
 
+it("el peso volumétrico no puede ser negativo", () => {
+    let ventas = new Ventas()
+
+    expect(() => ventas.obtenerCostoEnvioPorUnidad(-5)).toThrow()
+})
+
 });
 

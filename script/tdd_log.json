@@ -774,9 +774,31 @@
     "testId": 25
   },
   {
-    "commitId": "HEAD",
+    "commitId": "86236dfd7c1b4274a93832d4582695f5c460ffa4",
     "commitName": "feat: test de validacion para valores negativos en precio item",
     "commitTimestamp": 1789017555641,
     "testId": 25
+  },
+  {
+    "numPassedTests": 32,
+    "failedTests": 1,
+    "numTotalTests": 33,
+    "timestamp": 1789017586135,
+    "success": false,
+    "testId": 26
+  },
+  {
+    "numPassedTests": 33,
+    "failedTests": 0,
+    "numTotalTests": 33,
+    "timestamp": 1789017624823,
+    "success": true,
+    "testId": 26
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: test de validacion para valores negativos en peso",
+    "commitTimestamp": 1789017645154,
+    "testId": 26
   }
 ]

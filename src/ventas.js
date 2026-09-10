@@ -143,6 +143,9 @@ class Ventas{
     }
 
     obtenerCostoEnvioPorUnidad(peso){
+        if(peso < 0){
+            throw new Error("El peso no puede ser negativo")
+        }
          if (peso >= 0 && peso <= 10) {
         return 0
     }
