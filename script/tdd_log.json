@@ -744,9 +744,39 @@
     "testId": 24
   },
   {
-    "commitId": "HEAD",
+    "commitId": "7b2137106e1f25b2b519761162218345844e3384",
     "commitName": "feat: test de descuentos fijos para normal sin descuento",
     "commitTimestamp": 1789017387269,
     "testId": 24
+  },
+  {
+    "numPassedTests": 32,
+    "failedTests": 0,
+    "numTotalTests": 32,
+    "timestamp": 1789017451942,
+    "success": true,
+    "testId": 25
+  },
+  {
+    "numPassedTests": 31,
+    "failedTests": 1,
+    "numTotalTests": 32,
+    "timestamp": 1789017464991,
+    "success": false,
+    "testId": 25
+  },
+  {
+    "numPassedTests": 32,
+    "failedTests": 0,
+    "numTotalTests": 32,
+    "timestamp": 1789017525316,
+    "success": true,
+    "testId": 25
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: test de validacion para valores negativos en precio item",
+    "commitTimestamp": 1789017555641,
+    "testId": 25
   }
 ]

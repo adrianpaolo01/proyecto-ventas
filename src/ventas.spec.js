@@ -209,6 +209,12 @@ it("si no se cumplen las condiciones para un descuento fijo, el descuento es 0",
     ).toEqual(0)
 })
 
+// tests para validaciones
+it("el precio del item no puede ser negativo", () => {
+    let ventas = new Ventas()
+
+    expect(() => ventas.obtenerPrecioItem(-10)).toThrow()
+})
 
 });
 

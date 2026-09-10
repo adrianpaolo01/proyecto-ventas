@@ -74,8 +74,11 @@ class Ventas{
     }
 
     obtenerPrecioItem(precioItem){
-        this.precioItem = precioItem
-        return this.precioItem
+        if(precioItem > 0){
+            this.precioItem = precioItem
+            return this.precioItem
+        }
+        throw new Error("No puede ingresar items con valores negativos")
     }
 
     obtenerPrecioNeto(cantItems, precioItem){
@@ -192,5 +195,7 @@ class Ventas{
         }
             return 0 
 }
+
+
 }
 export default Ventas
