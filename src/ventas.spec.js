@@ -151,6 +151,13 @@ it("si el peso volumétrico es mayor a 200, el costo de envío es 9", () => {
     expect(ventas.obtenerCostoEnvioPorUnidad(250)).toEqual(9)
 })
 
+// costo total de envio segun cantidad
+
+it("10 unidades con peso volumétrico de 15 deben tener un costo de envío de 35", () => {
+    let ventas = new Ventas()
+
+    expect(ventas.calcularCostoEnvio(10, 15)).toEqual(35)
+})
 
 
 

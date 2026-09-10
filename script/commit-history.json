@@ -323,12 +323,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "5f6e31a25b96fa21c91c3ed95fb3eb209d05390a",
     "author": "Adrian Paolo",
     "commit": {
       "date": "2026-09-10T04:55:23.000Z",
       "message": "feat: test costo de envio por unidad de 200 y completando la funcion de envio por unidad",
-      "url": "https://github.com/adrianpaolo01/proyecto-ventas/commit/HEAD"
+      "url": "https://github.com/adrianpaolo01/proyecto-ventas/commit/5f6e31a25b96fa21c91c3ed95fb3eb209d05390a"
     },
     "stats": {
       "total": 21,
@@ -338,6 +338,25 @@
     },
     "coverage": 90.77,
     "test_count": 23,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Adrian Paolo",
+    "commit": {
+      "date": "2026-09-10T04:56:55.000Z",
+      "message": "feat: test calcular costo de envio",
+      "url": "https://github.com/adrianpaolo01/proyecto-ventas/commit/HEAD"
+    },
+    "stats": {
+      "total": 13,
+      "additions": 13,
+      "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 92.54,
+    "test_count": 24,
     "failed_tests": 0,
     "conclusion": "success"
   }

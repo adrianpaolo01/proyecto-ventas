@@ -166,5 +166,11 @@ class Ventas{
     }
     }
 
+    calcularCostoEnvio(cantidad, peso) {
+    let costoPorUnidad = this.obtenerCostoEnvioPorUnidad(peso)
+
+    return cantidad * costoPorUnidad
+}
+
 }
 export default Ventas
