@@ -175,13 +175,19 @@ class Ventas{
         if(tipoCliente === "Normal"){
             return 0
         }
-        
         if(tipoCliente === "Recurrente"){
             return 0.05
         }
         if(tipoCliente === "Especial"){
             return 1.5
         }
+    }
+
+    obtenerDescuentoFijo(tipoCliente, precioNeto, categoria){
+        if (tipoCliente === "Recurrente" && precioNeto > 3000 && categoria === "Alimentos") {
+            return 100
+        }
+
     }
 }
 export default Ventas

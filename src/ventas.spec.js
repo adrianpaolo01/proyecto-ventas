@@ -184,6 +184,15 @@ it("el cliente Especial debe tener 1.5% de descuento en el envío", () => {
     expect(ventas.obtenerDescuentoEnvio("Especial")).toEqual(1.5)
 })
 
+// TESTS de descuentos fijo segun cliente, monto y categoria
+it("un cliente Recurrente que compra más de 3000 en Alimentos obtiene 100 de descuento", () => {
+    let ventas = new Ventas()
+
+    expect(
+        ventas.obtenerDescuentoFijo("Recurrente", 3500, "Alimentos")
+    ).toEqual(100)
+})
+
 
 });
 
