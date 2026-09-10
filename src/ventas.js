@@ -187,7 +187,9 @@ class Ventas{
         if (tipoCliente === "Recurrente" && precioNeto > 3000 && categoria === "Alimentos") {
             return 100
         }
-
+        if (tipoCliente === "Especial" && precioNeto > 5000 && categoria === "Electrónicos") {
+            return 200
+        }
     }
 }
 export default Ventas

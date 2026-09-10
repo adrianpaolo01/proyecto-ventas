@@ -193,6 +193,14 @@ it("un cliente Recurrente que compra más de 3000 en Alimentos obtiene 100 de de
     ).toEqual(100)
 })
 
+it("un cliente Especial que compra más de 7000 en Electrónicos obtiene 200 de descuento", () => {
+    let ventas = new Ventas()
+
+    expect(
+        ventas.obtenerDescuentoFijo("Especial", 8000, "Electrónicos")
+    ).toEqual(200)
+})
+
 
 });
 
